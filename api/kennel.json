@@ -1,0 +1,112 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Milli",
+      "breed": "Maltipoo",
+      "image": "images/milli.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mia",
+      "breed": "Shitzu",
+      "image": "images/mia.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Ceelo",
+      "breed": "Australian Shepard",
+      "image": "images/ceelo.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Shark-Tank",
+      "breed": "Great White",
+      "image": "images/sharktank.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Tank",
+      "breed": "Great Dane Mix",
+      "image": "images/tank.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Dr. Pepper",
+      "breed": "Dalmation",
+      "image": "images/drpepper.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Midnight",
+      "breed": "Panther",
+      "image": "images/midnight.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Rosco",
+      "breed": "LAMA!!!!",
+      "image": "images/rosco.jpg"
+    }
+  ],
+  "owners": [
+    {
+      "id": 1,
+      "name": "Wanda",
+      "phone": "615-444-1234",
+      "image": "images/wanda.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Derick",
+      "phone": "615-444-1235",
+      "image": "images/derick.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Brian",
+      "phone": "615-444-1236",
+      "image": "images/brian.jpg"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Connor",
+      "title": "The Gate Keeper",
+      "image": "images/connor.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Summer",
+      "title": "The Poop Scooper",
+      "image": "images/summer.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Spyke",
+      "title": "The Oldtimer",
+      "image": "images/spyke.jpg"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "city": "Lebanon",
+      "address": "500 Main Street",
+      "hours": "M-F (8:00am - 8:00pm)"
+    },
+    {
+      "id": 2,
+      "city": "Mt. Juliet",
+      "address": "600 Main Street",
+      "hours": "M-F (8:00am - 8:00pm)"
+    },
+    {
+      "id": 3,
+      "city": "Watertown",
+      "address": "700 Main Street",
+      "hours": "M-F (8:00am - 8:00pm)"
+    }
+  ]
+}
