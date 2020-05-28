@@ -8,7 +8,6 @@ const LocationList = () => {
 
     const getLocations = () => {
         return LocationManager.getAll().then(locationsFromAPI => {
-            console.log(locationsFromAPI)
             setlocations(locationsFromAPI)
         })
     }

@@ -10,7 +10,6 @@ const AnimalList = () => {
     const getAnimals = () => {
         return AnimalManager.getAll().then(animalsFromAPI => {
           // We'll do something more interesting with this data soon.
-          console.log(animalsFromAPI);
           setAnimals(animalsFromAPI)
         });
       };

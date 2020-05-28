@@ -8,7 +8,6 @@ const EmployeeList = () => {
 
     const getEmployees = () => {
         return EmployeeManager.getAll().then(employeesFromAPI => {
-            console.log(employeesFromAPI);
             setEmployees(employeesFromAPI)
         });
     };
@@ -20,7 +19,7 @@ const EmployeeList = () => {
 
     useEffect(() => {
         getEmployees();
-    })
+    }, []);
 
     return(
         <div className="container-cards">

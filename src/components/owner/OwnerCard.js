@@ -1,21 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./Owner.css"
 
 const OwnerCard = (props) => {
   return (
     <div className="card">
       <div className="card-content">
-      <picture>
-          
+        <picture>
           {/* <img src={require("./dog.svg")} alt="My Dog" /> */}
-         <img src={props.owner.image}/>
-       
-     </picture>
+          <img src={props.owner.image} alt="Owner Picture" />
+        </picture>
         <h3>
-  Name: <span className="card-owner">{props.owner.name}</span>
+          <span className="card-owner">{props.owner.name}</span>
         </h3>
-  <p>Phone Number: {props.owner.phone}</p>
+        <p>Phone Number: {props.owner.phone}</p>
       </div>
-      <button onClick ={() => {props.deleteOwner(props.owner.id)}} className = "delete">Remove Owner</button>
+      <Link to={`/owners/${props.owner.id}`}>
+        <button>Details</button>
+      </Link>
+      <button
+        onClick={() => {
+          props.deleteOwner(props.owner.id);
+        }}
+        className="delete"
+      >
+        Remove Owner
+      </button>
     </div>
   );
 };

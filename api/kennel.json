@@ -4,49 +4,49 @@
       "id": 1,
       "name": "Milli",
       "breed": "Maltipoo",
-      "image": "images/milli.jpg"
+      "image": "../images/milli.jpg"
     },
     {
       "id": 2,
       "name": "Mia",
       "breed": "Shitzu",
-      "image": "images/mia.jpg"
+      "image": "../images/mia.jpg"
     },
     {
       "id": 3,
       "name": "Ceelo",
       "breed": "Australian Shepard",
-      "image": "images/ceelo.jpg"
+      "image": "../images/ceelo.jpg"
     },
     {
       "id": 4,
       "name": "Shark-Tank",
       "breed": "Great White",
-      "image": "images/sharktank.jpg"
+      "image": "../images/sharktank.jpg"
     },
     {
       "id": 5,
       "name": "Tank",
       "breed": "Great Dane Mix",
-      "image": "images/tank.jpg"
+      "image": "../images/tank.jpg"
     },
     {
       "id": 6,
       "name": "Dr. Pepper",
       "breed": "Dalmation",
-      "image": "images/drpepper.jpg"
+      "image": "../images/drpepper.jpg"
     },
     {
       "id": 7,
       "name": "Midnight",
       "breed": "Panther",
-      "image": "images/midnight.jpg"
+      "image": "../images/midnight.jpg"
     },
     {
       "id": 8,
       "name": "Rosco",
       "breed": "LAMA!!!!",
-      "image": "images/rosco.jpg"
+      "image": "../images/rosco.jpg"
     }
   ],
   "owners": [
@@ -54,19 +54,19 @@
       "id": 1,
       "name": "Wanda",
       "phone": "615-444-1234",
-      "image": "images/wanda.jpg"
+      "image": "../images/wanda.jpg"
     },
     {
       "id": 2,
       "name": "Derick",
       "phone": "615-444-1235",
-      "image": "images/derick.jpg"
+      "image": "../images/derick.jpg"
     },
     {
       "id": 3,
       "name": "Brian",
       "phone": "615-444-1236",
-      "image": "images/brian.jpg"
+      "image": "../images/brian.jpg"
     }
   ],
   "employees": [
@@ -74,19 +74,19 @@
       "id": 1,
       "name": "Connor",
       "title": "The Gate Keeper",
-      "image": "images/connor.jpg"
+      "image": "../images/connor.jpg"
     },
     {
       "id": 2,
       "name": "Summer",
       "title": "The Poop Scooper",
-      "image": "images/summer.jpg"
+      "image": "../images/summer.jpg"
     },
     {
       "id": 3,
       "name": "Spyke",
       "title": "The Oldtimer",
-      "image": "images/spyke.jpg"
+      "image": "../images/spyke.jpg"
     }
   ],
   "locations": [
