@@ -19,7 +19,6 @@ const EmployeeCard = (props) => {
       <Link to={`/employees/${props.employee.id}`}>
         <button>Details</button>
       </Link>
-      <button onClick={() => {props.deleteEmployee(props.employee.id)}} className = "delete">You're Fired</button>
     </div>
   );
 };

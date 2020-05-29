@@ -4,7 +4,14 @@ import "./AnimalDetail.css";
 
 const AnimalDetail = (props) => {
   const [animal, setAnimal] = useState({ name: "", breed: "", image: "" });
-
+  const [isLoading, setIsLoading] = useState(true)
+  const handleDelete = () => {
+    //invoke the delete function in AnimalManger and re-direct to the animal list.
+    setIsLoading(true);
+    AnimalManager.delete(props.animalId).then(() =>
+      props.history.push("/animals")
+    );
+  };
   useEffect(() => {
     //get(id) from AnimalManager and hang on to the data; put it into state
     AnimalManager.get(props.animalId).then((animal) => {
@@ -13,6 +20,7 @@ const AnimalDetail = (props) => {
         breed: animal.breed,
         image: animal.image,
       });
+      setIsLoading(false)
     });
   }, [props.animalId]);
 
@@ -27,8 +35,11 @@ const AnimalDetail = (props) => {
         </h3>
         <p>Breed: {animal.breed}</p>
       </div>
+      <button type="button" disabled={isLoading} onClick={handleDelete}
+      >Release</button>
     </div>
   );
-};
 
+
+};
 export default AnimalDetail;

@@ -18,14 +18,6 @@ const OwnerCard = (props) => {
       <Link to={`/owners/${props.owner.id}`}>
         <button>Details</button>
       </Link>
-      <button
-        onClick={() => {
-          props.deleteOwner(props.owner.id);
-        }}
-        className="delete"
-      >
-        Remove Owner
-      </button>
     </div>
   );
 };

@@ -18,14 +18,6 @@ const AnimalCard = (props) => {
       <Link to={`/animals/${props.animal.id}`}>
         <button>Details</button>
       </Link>
-      <button
-        onClick={() => {
-          props.deleteAnimal(props.animal.id);
-        }}
-        className="delete"
-      >
-        Release Animal
-      </button>
     </div>
   );
 };

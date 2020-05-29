@@ -3,11 +3,14 @@ import LocationManager from "../../modules/LocationManager";
 import "./LocationDetail.css";
 
 const LocationDetail = (props) => {
-  const [location, setLocation] = useState({
-    city: "",
-    address: "",
-    hours: "",
-  });
+  const [location, setLocation] = useState({city: "",address: "",hours: "",});
+  const [isLoading, setIsLoading] = useState(true)
+  const handleDelete = () => {
+    setIsLoading(true);
+    LocationManager.delete(props.locationId).then(() =>
+    props.history.push("/locations")
+    )
+  }
 
   useEffect(() => {
     LocationManager.get(props.locationId).then((location) => {
@@ -16,6 +19,7 @@ const LocationDetail = (props) => {
         address: location.address,
         hours: location.hours,
       });
+      setIsLoading(false)
     });
   }, [props.locationId]);
 
@@ -28,6 +32,7 @@ const LocationDetail = (props) => {
         <p>Address: {location.address}</p>
         <p>Hours: {location.hours}</p>
       </div>
+      <button type="button" disabled={isLoading} onClick={handleDelete}>Close Location</button>
     </div>
   );
 };

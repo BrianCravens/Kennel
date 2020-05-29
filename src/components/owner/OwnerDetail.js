@@ -2,8 +2,14 @@ import React, { useState, useEffect } from 'react';
 import OwnerManager from '../../modules/OwnerManager';
 import './OwnerDetail.css'
 
-const OwnerDetail = props => {
+const OwnerDetail = (props) => {
   const [owner, setOwner] = useState({ name: "", phone: "", image: "" });
+  const [isLoading, setIsLoading] = useState(true)
+  const handleDelete = () => {
+    setIsLoading(true)
+    OwnerManager.delete(props.ownerId).then(() =>
+      props.history.push("/owners"))
+  }
 
   useEffect(() => {
     //get(id) from AnimalManager and hang on to the data; put it into state
@@ -14,6 +20,7 @@ const OwnerDetail = props => {
           phone: owner.phone,
           image: owner.image
         });
+        setIsLoading(false)
       });
   }, [props.ownerId]);
 
@@ -26,6 +33,8 @@ const OwnerDetail = props => {
         <h3><span style={{ color: 'darkslategrey' }}>{owner.name}</span></h3>
         <p>Phone Number: {owner.phone}</p>
       </div>
+      <button type="button" disabled={isLoading} onClick={handleDelete}
+      >Remove</button>
     </div>
   );
 }

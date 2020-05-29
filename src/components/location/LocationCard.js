@@ -15,7 +15,6 @@ const LocationCard = (props) => {
       <Link to={`/locations/${props.location.id}`}>
         <button>Details</button>
       </Link>
-      <button onClick={() => {props.deleteLocation(props.location.id)}} className = "delete">Close Location</button>
     </div>
   );
 };
