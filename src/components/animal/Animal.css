@@ -18,7 +18,10 @@
     font-weight: bold;
     color: rgb(43, 112, 241);
   }
-  img{
+  .btn{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
     /* height: 175px; */
   }
   .card-content p {
