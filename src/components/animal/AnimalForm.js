@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import AnimalManager from '../../modules/AnimalManager';
 import './AnimalForm.css'
 import EmployeeManager from '../../modules/EmployeeManager';
-import { getAllByAltText } from '@testing-library/react';
+// import { getAllByAltText } from '@testing-library/react';
 // import Select from "react-dropdown-select";
 
 const AnimalForm = props => {

@@ -4,57 +4,49 @@
       "id": 1,
       "name": "Milli",
       "breed": "Maltipoo",
-      "image": "../images/milli.jpg",
-      "employeeId": "1"
+      "image": "../images/milli.jpg"
     },
     {
       "id": 2,
       "name": "Mia",
       "breed": "Shitzu",
-      "image": "../images/mia.jpg",
-      "employeeId": "1"
+      "image": "../images/mia.jpg"
     },
     {
       "id": 3,
       "name": "Ceelo",
       "breed": "Australian Shepard",
-      "image": "../images/ceelo.jpg",
-      "employeeId": "2"
+      "image": "../images/ceelo.jpg"
     },
     {
       "id": 4,
       "name": "Shark-Tank",
       "breed": "Great White",
-      "image": "../images/sharktank.jpg",
-      "employeeId": "3"
+      "image": "../images/sharktank.jpg"
     },
     {
       "id": 5,
       "name": "Tank",
       "breed": "Great Dane Mix",
-      "image": "../images/tank.jpg",
-      "employeeId": "2"
+      "image": "../images/tank.jpg"
     },
     {
       "id": 6,
       "name": "Dr. Pepper",
       "breed": "Dalmation",
-      "image": "../images/drpepper.jpg",
-      "employeeId": "1"
+      "image": "../images/drpepper.jpg"
     },
     {
       "id": 7,
       "name": "Midnight",
       "breed": "Panther",
-      "image": "../images/midnight.jpg",
-      "employeeId": "1"
+      "image": "../images/midnight.jpg"
     },
     {
       "id": 8,
       "name": "Rosco",
       "breed": "LAMA!!!!",
-      "image": "../images/rosco.jpg",
-      "employeeId": "1"
+      "image": "../images/rosco.jpg"
     }
   ],
   "owners": [
