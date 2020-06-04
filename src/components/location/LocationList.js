@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import LocationManager from "../../modules/LocationManager";
 import LocationCard from "./LocationCard"
 
-const LocationList = () => {
+const LocationList = (props) => {
 
     const [locations, setlocations] = useState([]);
 
@@ -22,7 +22,7 @@ const LocationList = () => {
 
         return(
             <div className="container-cards">
-                {locations.map(location => <LocationCard key={location.id} location={location} deleteLocation = {deleteLocation}/>)}
+                {locations.map(location => <LocationCard key={location.id} location={location} deleteLocation = {deleteLocation}{...props}/>)}
             </div>
         )
     }

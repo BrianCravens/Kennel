@@ -19,6 +19,9 @@ const EmployeeCard = (props) => {
       <Link to={`/employees/${props.employee.id}`}>
         <button>Details</button>
       </Link>
+      <button type="button" onClick={() => props.deleteAnimal(props.animal.id)}>You're Fired</button>
+      
+      
     </div>
   );
 };

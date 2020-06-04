@@ -62,7 +62,7 @@ const AnimalForm = props => {
             <label htmlFor="breed">Breed</label>
           
           <select id="cartakerSelect" value = {animal.employeeId} id= "employeeId" onChange={handleFieldChange}>
-              <option value = "">Choose Cartaker</option>
+              <option value = "">Choose Caretaker</option>
               {employees.map(employee => <option value= {employee.id}>{employee.name}</option>)}
           </select>
               </div>

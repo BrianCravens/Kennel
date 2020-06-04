@@ -4,49 +4,57 @@
       "id": 1,
       "name": "Milli",
       "breed": "Maltipoo",
-      "image": "../images/milli.jpg"
+      "image": "../images/milli.jpg",
+      "employeeId": 1
     },
     {
       "id": 2,
       "name": "Mia",
       "breed": "Shitzu",
-      "image": "../images/mia.jpg"
+      "image": "../images/mia.jpg",
+      "employeeId": "3"
     },
     {
       "id": 3,
       "name": "Ceelo",
       "breed": "Australian Shepard",
-      "image": "../images/ceelo.jpg"
+      "image": "../images/ceelo.jpg",
+      "employeeId": 2
     },
     {
       "id": 4,
       "name": "Shark-Tank",
       "breed": "Great White",
-      "image": "../images/sharktank.jpg"
+      "image": "../images/sharktank.jpg",
+      "employeeId": 3
     },
     {
       "id": 5,
       "name": "Tank",
       "breed": "Great Dane Mix",
-      "image": "../images/tank.jpg"
+      "image": "../images/tank.jpg",
+      "employeeId": 3
     },
     {
       "id": 6,
       "name": "Dr. Pepper",
       "breed": "Dalmation",
-      "image": "../images/drpepper.jpg"
+      "image": "../images/drpepper.jpg",
+      "employeeId": 1
     },
     {
       "id": 7,
       "name": "Midnight",
       "breed": "Panther",
-      "image": "../images/midnight.jpg"
+      "image": "../images/midnight.jpg",
+      "employeeId": 1
     },
     {
       "id": 8,
       "name": "Rosco",
       "breed": "LAMA!!!!",
-      "image": "../images/rosco.jpg"
+      "image": "../images/rosco.jpg",
+      "employeeId": 1
     }
   ],
   "owners": [
@@ -74,19 +82,22 @@
       "id": 1,
       "name": "Connor",
       "title": "The Gate Keeper",
-      "image": "../images/connor.jpg"
+      "image": "../images/connor.jpg",
+      "locationId": 1
     },
     {
       "id": 2,
       "name": "Summer",
       "title": "The Poop Scooper",
-      "image": "../images/summer.jpg"
+      "image": "../images/summer.jpg",
+      "locationId": 1
     },
     {
       "id": 3,
       "name": "Spyke",
       "title": "The Oldtimer",
-      "image": "../images/spyke.jpg"
+      "image": "../images/spyke.jpg",
+      "locationId": 1
     }
   ],
   "locations": [
