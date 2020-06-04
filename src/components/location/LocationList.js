@@ -22,7 +22,7 @@ const LocationList = (props) => {
 
         return(
             <div className="container-cards">
-                {locations.map(location => <LocationCard key={location.id} location={location} deleteLocation = {deleteLocation}{...props}/>)}
+                {locations.map(location => <LocationCard key={location.id} loco={location} deleteLocation = {deleteLocation} {...props}/>)}
             </div>
         )
     }

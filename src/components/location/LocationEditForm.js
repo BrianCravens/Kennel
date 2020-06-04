@@ -47,20 +47,29 @@ const LocationEditForm = props => {
                   required
                   className="form-control"
                   onChange={handleFieldChange}
-                  id="name"
+                  id="city"
                   value={location.city}
                 />
-                <label htmlFor="name">City</label>
+                <label htmlFor="city">City</label>
     
                 <input
                   type="text"
                   required
                   className="form-control"
                   onChange={handleFieldChange}
-                  id="breed"
+                  id="address"
                   value={location.address}
                 />
-                <label htmlFor="breed">Address</label>
+                <label htmlFor="address">Address</label>
+                <input
+                  type="text"
+                  required
+                  className="form-control"
+                  onChange={handleFieldChange}
+                  id="hours"
+                  value={location.hours}
+                />
+                <label htmlFor="hours">Hours</label>
               </div>
               <div className="alignRight">
                 <button

@@ -7,16 +7,16 @@ const LocationCard = (props) => {
     <div className="card">
       <div className="card-content">
         <h3>
-  Name: <span className="card-location">{props.location.city}</span>
+  Location: <span className="card-location">{props.loco.city}</span>
         </h3>
-  <p>Address: {props.location.address}</p>
-  <p>Hours: {props.location.hours}</p>
+  <p>Address: {props.loco.address}</p>
+  <p>Hours: {props.loco.hours}</p>
       </div>
-      <Link to={`/locations/${props.location.id}`}>
+      <Link to={`/locations/${props.loco.id}`}>
         <button>Details</button>
       </Link>
       <button type="button"
-            onClick={() => props.history.push(`/locations/${props.location.id}/edit`)}> Edit</button>
+            onClick={() => props.history.push(`/locations/${props.loco.id}/edit`)}> Edit</button>
     </div>
   );
 };
